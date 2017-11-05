@@ -1,0 +1,174 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="UI">
+      <UniqueIdentifier>{0d375538-fe79-4775-bb59-0a8dd10bec41}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI\Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="UI\Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="UI\Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Utils">
+      <UniqueIdentifier>{38a8415b-9f44-4c3f-9e81-ca249bd83fe1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utils\Header Files">
+      <UniqueIdentifier>{319bc976-e4c7-4d86-bd36-bd5c3ad6ddeb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utils\Source Files">
+      <UniqueIdentifier>{79ac57bf-4b4a-4100-9f7e-f55ecfa336e7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework">
+      <UniqueIdentifier>{4d80aeb2-c9a0-441f-9da3-a03fce4d3dce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Header Files">
+      <UniqueIdentifier>{51f2dc71-952f-4b08-8418-690e9cf77a3d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Source Files">
+      <UniqueIdentifier>{52653852-740d-4744-8589-0fbba4b825a5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="OSC">
+      <UniqueIdentifier>{e4d342c0-444e-476e-847b-54ad0847f99a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="OSC\Header Files">
+      <UniqueIdentifier>{5d2b0393-3eba-4849-b1ec-29c63b550b7e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="OSC\Source Files">
+      <UniqueIdentifier>{a2587114-3022-42d6-863f-26ab5b477232}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>UI\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>UI\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>UI\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TotalMixRelay.h">
+      <Filter>UI\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="UserDef.h">
+      <Filter>UI\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SyncButton.h">
+      <Filter>UI\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Thread.h">
+      <Filter>Utils\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Button.h">
+      <Filter>Framework\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="UDPSocket.h">
+      <Filter>Utils\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="OSCController.h">
+      <Filter>OSC\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="OSCThread.h">
+      <Filter>OSC\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="OSCMessage.h">
+      <Filter>OSC\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MasterFaderOSCMessage.h">
+      <Filter>OSC\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Event.h">
+      <Filter>Utils\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="NotificationArea.h">
+      <Filter>UI\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AudioEndpointControl.h">
+      <Filter>Utils\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MasterVolumeNotificationHandler.h">
+      <Filter>OSC\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MasterMuteOSCMessage.h">
+      <Filter>UI\Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>UI\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TotalMixRelay.cpp">
+      <Filter>UI\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SyncButton.cpp">
+      <Filter>UI\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Thread.cpp">
+      <Filter>Utils\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Button.cpp">
+      <Filter>Framework\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="UDPSocket.cpp">
+      <Filter>Utils\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="OSCController.cpp">
+      <Filter>OSC\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="OSCThread.cpp">
+      <Filter>OSC\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="OSCMessage.cpp">
+      <Filter>OSC\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MasterFaderOSCMessage.cpp">
+      <Filter>OSC\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Event.cpp">
+      <Filter>Utils\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="NotificationArea.cpp">
+      <Filter>UI\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AudioEndpointControl.cpp">
+      <Filter>Utils\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MasterVolumeNotificationHandler.cpp">
+      <Filter>OSC\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MasterMuteOSCMessage.cpp">
+      <Filter>UI\Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="TotalMixRelay.rc">
+      <Filter>UI\Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="small.ico">
+      <Filter>UI\Resource Files</Filter>
+    </Image>
+    <Image Include="TotalMixRelay.ico">
+      <Filter>UI\Resource Files</Filter>
+    </Image>
+    <Image Include="icon1.ico">
+      <Filter>UI\Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Manifest Include="TotalMixRelay.exe.manifest">
+      <Filter>UI\Resource Files</Filter>
+    </Manifest>
+  </ItemGroup>
+</Project>
